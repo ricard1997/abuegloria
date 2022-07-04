@@ -549,18 +549,24 @@ padding-right: 1.1rem;
 }
 
 .parallax1 {
-  /* The image used */
-  background-image: url("ara1.jpg");
+  background: url("fondo_de1.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 70%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
 
-  /* Set a specific height */
-  min-height: 600px;
+}
 
-  /* Create the parallax scrolling effect */
-
-  background-attachment: fixed;
-  background-position: center 70px;
-  background-repeat: no-repeat;
-  background-size: cover;
+.centrando{
+  position: relative;
+  text-align: center;
+  z-index: 3;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 
@@ -676,8 +682,12 @@ padding: 0px;
 
 @media only screen and (max-device-width: 800px) {
   .parallax1 {
-    background-attachment: scroll;
-		background-position: -150px center;
+    background: url("fondo_cell.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
   }
 }
 

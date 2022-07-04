@@ -108,6 +108,9 @@ main {
   display: block;
 }
 
+
+
+
 /**
      * 1. Correct the inheritance and scaling of font size in all browsers.
      * 2. Correct the odd `em` font sizing in all browsers.
@@ -857,6 +860,16 @@ textarea {
 .page-preloader .preloader::after,
 .page-preloader .preloader::before {
   background-color: #00b0ff;
+}
+
+
+.forma{
+
+  padding-top: 20%;
+  padding-left: 30%;
+  padding-bottom: 15%;
+  padding-right: 30%;
+
 }
 
 
