@@ -871,6 +871,15 @@ textarea {
   padding-right: 30%;
 
 }
+@media only screen and (max-device-width: 800px) {
+  .forma{
+
+    padding-top: 60%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-right: 10%;}
+
+}
 
 
 
