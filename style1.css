@@ -763,7 +763,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 150vh;
 }
 
 .centerimage{
@@ -911,8 +911,9 @@ background-image: url("footer	.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    min-height: 100vh;
+    min-height: 150vh;
+
+
   }
 }
 
