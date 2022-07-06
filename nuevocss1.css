@@ -66,9 +66,49 @@ section {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0.67em 0;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
 }
+
+.titulin{
+ font-size: 2vh;
+}
+
+
+
+
+.covercover{
+  padding: 2em;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.covertit{
+  background-color: #0a0a0a;
+}
+
+
+
+
+@media only screen and (max-device-width: 800px) {
+  .h1 {
+    font-size: 10px;
+  }
+
+
+  .titulin{
+    font-size: 1vh !important;
+  }
+
+  .covercover{
+    padding: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 
 /* Grouping content
        ========================================================================== */
