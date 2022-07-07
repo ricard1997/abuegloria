@@ -153,12 +153,12 @@
 
                 
                 
-                <form class="forma">
+                <form class="forma" action="https://formsubmit.co/your@email.com" method="POST" >
                     <h class="centrado"> <b>REGISTRO</b></h>
                     <!-- Name input -->
                     <div class="form-outline mb-4">
-                        <label class="form-label" for="form4Example1">Ingrese el número de asistentes:</label>
-                      <input type="text" id="form4Example1" class="form-control" />
+                       <label class="form-label" for="form4Example1">Ingrese el número de asistentes:</label>
+                      <input type="text"  name="email" class="form-control" required>
                       
                     </div>
                   
@@ -167,14 +167,17 @@
                     <!-- Message input -->
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form4Example3">Ingrese el nombre de <b>TODOS</b> los asistentes:</label>
-                      <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                      <textarea type="text" name="email" class="form-control"  rows="4" required></textarea>
                       
                     </div>
                   
 
                   
                     <!-- Submit button -->
-                    <a type="submit" href="confirmacion.html" class="btn btn-primary btn-block mb-4">Enviar</a>
+                    <button type="submit"  class="btn btn-primary btn-block mb-4">Enviar</button>
+					<input type='hidden' name="_next" value="https://ricard1997.github.io/abuegloria/registro.html">
+
+					<input type='hidden' name="_captcha" value="false">
                   </form>
 
 
